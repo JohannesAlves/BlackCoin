@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 2000px;
+}
+
+body{
+    background-image: url(assets/fundo.jpg);
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+header{
+    display: flex;
+    margin-left: 1000px;
+    word-spacing: 30px;
+    margin-top: 30px;
+}
+h1{
+    margin-left: 30px;
+    font-family: 'Cutive Mono';
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+
+}
+.market, .exchange, .comunnity, li{
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: 'Major Mono Display', monospace;
+}
+.market:hover, .exchange:hover, .comunnity:hover{
+    transition: border 3s 0s ease;
+    border: 1px solid rgb(255, 255, 255);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+.paragraph{
+    top: 100px;
+}
+#title1{
+    margin-top: 100px;
+    font-size: 40px;
+    margin-left: 30%;
+    font-family: 'Noto Serif', serif;
+    word-spacing: 5px;
+}
+h2:hover{
+
+}
+
+#cripto{
+    font-family: 'Courier New', Courier, monospace;
+    color:grey;
+    font-size: larger;
+    margin-top: 4%;
+    margin-left: 30%;
+}
+
+.container2{
+    background-color: rgb(141, 141, 141);
+    background-image:url(https://wallpaperboat.com/wp-content/uploads/2020/04/dark-city-wallpaper-1920x1080-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+}
+
+#title2{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Cutive Mono';
+    font-size: 50px;
+}
