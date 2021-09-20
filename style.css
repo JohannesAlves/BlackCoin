@@ -8,6 +8,25 @@
     padding: 0;
     max-width: 2000px;
 }
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+
+    background-color:rgb(54, 54, 54)
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0); 
+
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5f5f5f; 
+  }
+
+
 
 body{
     background-image: url(assets/fundo.jpg);
@@ -17,26 +36,31 @@ body{
     color: white;
 
 }
-header{
-    display: flex;
-    margin-left: 1000px;
-    word-spacing: 30px;
-    margin-top: 30px;
-}
-h1{
-    margin-left: 30px;
+
+
+header h1{
+
     font-family: 'Cutive Mono';
     font-size: 50px;
     text-shadow: 2px 2px black;
-
+    display: grid;
+    padding-top: 2%;
+    margin-left: 2%;
+}
+.menu{
+    margin-left: 70%;
+    margin-top: -4%;
 }
 .market, .exchange, .comunnity, li{
+    display: inline-grid;
     font-size: 20px;
-    display: inline-block;
     text-decoration: none;
     list-style: none;
     color: white;
     font-family: 'Major Mono Display', monospace;
+    grid-area: a2;
+    margin: 10px;
+
 }
 .market:hover, .exchange:hover, .comunnity:hover{
     transition: border 3s 0s ease;
@@ -47,9 +71,13 @@ h1{
 }
 
 
-.paragraph{
-    top: 100px;
+
+.container{
+    grid-template-areas: "b3 b3 b3 b3 b3 b3";
 }
+
+
+
 #title1{
     margin-top: 100px;
     font-size: 40px;
@@ -57,9 +85,14 @@ h1{
     font-family: 'Noto Serif', serif;
     word-spacing: 5px;
 }
-h2:hover{
 
+
+.paragraph{
+    top: 100px;
+    grid-area: b3;
 }
+
+
 
 #cripto{
     font-family: 'Courier New', Courier, monospace;
@@ -71,15 +104,38 @@ h2:hover{
 
 .container2{
     background-color: rgb(141, 141, 141);
-    background-image:url(https://wallpaperboat.com/wp-content/uploads/2020/04/dark-city-wallpaper-1920x1080-1.jpg);
+    background-image:url(https://steamuserimages-a.akamaihd.net/ugc/813306660768080976/9A13581D8592EEEC7998BD79BD7B726989D0E94B/);
     background-repeat: no-repeat;
     background-size: cover;
-    display:flex;
 }
 
+
+
 #title2{
+    grid-row: auto;
     margin-top: 100px;
     text-align: center;
     font-family: 'Cutive Mono';
     font-size: 50px;
+}
+#title3{
+    text-align: center;
+    font-family: 'Cutive Mono';
+    font-size: 40px;
+    margin-top: 5%;
+}
+.mercadoBit{
+    margin-top: 10%;
+    background-color: white;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    margin-right: 20%;
+}
+#marketImg{
+
+    width: 150px;
+    padding-top: 30%;
+    margin-left: 10%;
+
 }
