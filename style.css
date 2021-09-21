@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap');
 
 *{
     box-sizing: border-box;
@@ -9,7 +10,7 @@
     max-width: 2000px;
 }
 ::-webkit-scrollbar {
-    width: 20px;
+    width: 15px;
   }
   
   ::-webkit-scrollbar-track {
@@ -46,6 +47,9 @@ header h1{
     display: grid;
     padding-top: 2%;
     margin-left: 2%;
+}
+h2{
+    font-family: 'Cutive Mono';
 }
 .menu{
     margin-left: 70%;
@@ -102,11 +106,28 @@ header h1{
     margin-left: 30%;
 }
 
+.btn{
+    margin-top: 3%;
+    margin-left: 30%;
+    background-color:rgb(112, 29, 189);
+    border-bottom-left-radius: 50%;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-family:"Arial", sans-serif;
+    text-indent: -25px;
+
+}
+
+
 .container2{
-    background-color: rgb(141, 141, 141);
+    background-color: rgb(255, 255, 255);
     background-image:url(https://steamuserimages-a.akamaihd.net/ugc/813306660768080976/9A13581D8592EEEC7998BD79BD7B726989D0E94B/);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    height: 1000px;
 }
 
 
@@ -115,14 +136,13 @@ header h1{
     grid-row: auto;
     margin-top: 100px;
     text-align: center;
-    font-family: 'Cutive Mono';
     font-size: 50px;
 }
 #title3{
     text-align: center;
-    font-family: 'Cutive Mono';
     font-size: 40px;
     margin-top: 5%;
+    font-family: 'Cutive Mono';
 }
 .mercadoBit{
     margin-top: 10%;
@@ -138,4 +158,14 @@ header h1{
     padding-top: 30%;
     margin-left: 10%;
 
+}
+.container3{
+    height: 1000px;
+    background-color: white;
+}
+#exchangeTitle{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    padding-top: 5%;
 }
